@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    .body-background,
+    .body-overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .body-background {
+        background: url('/public/assets/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header-text {
+        font-size: 3em;
+        font-family: 'Intro', sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(-86deg, #ffffff 5%, #fff 53%, #fff 91%);
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 4px transparent;
+        color: #b93e45;
+    }
+    .header-text {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .home-page .header-text {
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+    }
+
+    .rating-item {
+        label {
+        }
+        .rating-item-name {
+
+        }
+        .rating-item-comment {
+
+        }
+    }
+}
+
+.white {
+    color: #fff;
+}
+
+.main-row {
+    .col-sm {
+        .list-container {
+            overflow-y: auto;
+            max-height: 600px;
+        }
+        .add-town-box {
+            background: #fff;
+            border-radius: .25rem;
+            padding: .75rem 1.25rem;
+        }
+    }
+}

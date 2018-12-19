@@ -4,7 +4,7 @@ Quick Start
 -----------
 
 ```shell
-$ git clone https://github.com/OliveIT/RatingWebsite.git
+$ https://github.com/jengwuwang/react-redux-firebase-rating-website.git
 $ cd react-redux-firebase-boilerplate
 $ npm install
 $ npm run dev
